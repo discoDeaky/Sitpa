@@ -12,6 +12,11 @@ style=""     1000
 	/*opacity: 0.5;*/
 }
 
+iframe{
+	width: 100%;
+	max-width: 1800px;
+}
+
 @font-face{
 	font-family: AmazingInfographic;
 	src: url(../fonts/AmazingInfographic.otf);
@@ -29,7 +34,6 @@ style=""     1000
 	padding: 0;
 	content: "";
 	box-sizing: border-box;
-	overflow-x: hidden;
 }
 
 ul{
@@ -52,11 +56,14 @@ header .content{
   	display: flex;
   	justify-content: space-between;
   	align-items: center;
-  	max-width: 1707px;
+  	max-width: 1800px;
   	width: 100%;
   	margin: 0 auto;
 }
 
+header-li{
+	list-style-type: none; 
+}
 .logo{
   	position: 29px 16px;
 }
@@ -97,6 +104,8 @@ header .content{
 }
 
 .your-class{
+	max-width: 1800px;
+	width: 100%
   	border-bottom: 1px solid #fff;
 
  }
@@ -129,7 +138,8 @@ header .content{
 }
 
 .blue{
-	width: 1800px;
+	width: 100%;
+	max-width: 1800px;
 	height: 622px;
 	background: url("../img/blue.png") center center / cover;
 	color: #dfdfdf;
@@ -229,7 +239,7 @@ header .content{
 .areas{
 	width: 100%; 
   	text-align: center;
-	width: 1800px;
+	max-width: 1800px;
 	height: 1430px;
 	color: #000000;
 	font-family: Flamante-Cairo;
@@ -240,7 +250,8 @@ header .content{
 }
 
 .contactsmenu{
-	width: 100%; 
+	width: 100%;
+	max-width: 1800px;
   	text-align: center;
 	color: #000000;
 	font-family: Flamante-Cairo;
@@ -248,7 +259,6 @@ header .content{
 	font-weight: 400;
 	text-transform: uppercase;
 	height: 695px;
-	width: 1800px;
 	background: url("../img/contacts_container.png") center center / cover;
 }
 
@@ -302,8 +312,6 @@ header .content{
   	justify-content: space-around;
 
 }
-
-
 
 .onebl > .block {
   width: 50%;
