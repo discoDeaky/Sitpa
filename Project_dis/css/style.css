@@ -264,24 +264,24 @@ header .content{
 	text-transform: uppercase;
 }
 
+.info {
+	display: flex;
+	flex-direction: column;
+	
+	height: 100%;
+	color: #000000;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 80px;
+}
+
 .endbl > .name{
 	height: 100%;
 	color: #000000;
 	font-family: Flamante-Cairo;
 	font-size: 28px;
 	font-weight: 500;
-}
-
-.info1 .info2 .info3{
-	display: flex;
-	flex-direction: column;
-	width: 364px;
-	height: 180px;
-	color: #000000;
-	font-family: Roboto;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 80px;
 }
 
 .block{
@@ -302,6 +302,8 @@ header .content{
   	justify-content: space-around;
 
 }
+
+
 
 .onebl > .block {
   width: 50%;
